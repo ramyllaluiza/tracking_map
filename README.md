@@ -6,7 +6,7 @@ Tecnologias utilizadas:
 - React.js
 - React Server Components
 - Google Maps API
-- Taiwind
+- Tailwind
 
 O que foi feito:
 -
