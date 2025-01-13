@@ -1,20 +1,14 @@
-## Desenvolvimento do front-end de rastreamento de veículos com Next.js
+### Como rodar o projeto
 
-Tecnologias utilizadas:
-- 
-- TypeScript/JavaScript
-- React.js
-- React Server Components
-- Google Maps API
-- Tailwind
-
-O que foi feito:
--
-- Página de criação de rotas
-- Página de trafegar rota
-- Página de monitoriamento de veículos
-- Integração com a API do Nest.js
-- Integração com o Google Maps
-
-  
-  
+Para subir os containers e reconstruir as imagens Docker, use o seguinte comando:
+- backend
+```bash
+docker compose up --build
+```
+```bash
+docker compose exec app bash
+```
+- frontend
+```bash
+npm run dev
+```
